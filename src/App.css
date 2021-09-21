@@ -7,7 +7,7 @@
 	gap: 15px;
 	padding: 40px;
 	font-size: 16px;
-	background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+	background-image: white;
 }
 h1 {
 	color: forestgreen;
@@ -35,11 +35,11 @@ tbody > tr {
 	text-align: center;
 	font-weight: bold;
 }
-  .logo{
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 10%;
-    gap: 10px;
+.logo {
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 10%;
+	gap: 10px;
 }
 .symbol {
 	text-align: center;
