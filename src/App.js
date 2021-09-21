@@ -2,6 +2,7 @@ import "./App.css";
 import Axios from "axios";
 import { useEffect, useState } from "react";
 import coinYoda from "./coinyoda.png";
+import logo from "./logo.png";
 
 function App() {
 	// Setting up the inital states using react hook 'useState'
@@ -18,7 +19,8 @@ function App() {
 	}, []);
 
 	return (
-		<div className='App'>
+    <div className='App'>
+         <a href='https://github.com/Parham-S/cryptoprices'><img src={logo} alt="Logo" /></a>
 			<h1>CoinYoda</h1>
 			<img src={coinYoda} alt='yoda' />
 
