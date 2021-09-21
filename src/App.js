@@ -60,7 +60,7 @@ function App() {
 										</td>
 										<td className='symbol'>{val.symbol}</td>
 										<td>${val.price.toFixed(2)}</td>
-										<td>{val.availableSupply}</td>
+										<td>{val.availableSupply.toFixed(0)}</td>
 										<td>{val.volume.toFixed(0)}</td>
 									</tr>
 								</>
