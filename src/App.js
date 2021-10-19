@@ -9,7 +9,7 @@ function App() {
 	const [search, setSearch] = useState("");
 	const [crypto, setCrypto] = useState([]);
 
-	// Fetching coin data from the api only once when the component is mounted
+	// Fetching coin data from api only once when the component is mounted
 	useEffect(() => {
 		Axios.get(
 			"https://api.coinstats.app/public/v1/coins?skip=0&limit=100"
